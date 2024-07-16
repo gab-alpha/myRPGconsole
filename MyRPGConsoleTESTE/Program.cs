@@ -74,25 +74,25 @@ namespace MyRPGConsole
             Console.WriteLine("                            -->| Bem-vindo ao RPG de Console! |<--                             ]");
             Console.WriteLine("                                                                                               ]");
             Console.WriteLine("                                                                                               ]");
-            Console.WriteLine("_________________________________________________._____________________________________________]");
+            Console.WriteLine("__________________________________________________.____________________________________________]");
             Console.WriteLine("                                                                                               ]");
             Console.WriteLine("                                                                                               ]");
             Console.WriteLine("                                                                                               ]");
-            Console.WriteLine(@"                            |\                     /)                                          ]");
-            Console.WriteLine(@"                           /\_\\__               (_//                                          ]");
-            Console.WriteLine(@"                          |   `>\-`     _._       //`)                                         ]");
-            Console.WriteLine(@"                           \ /` \\  _.-`:::`-._  //                                            ]");
-            Console.WriteLine(@"                            `    \|`    :::    `|/                                             ]");
-            Console.WriteLine(@"         Aguarde enquanto         |     :::     |                                              ]");
-            Console.WriteLine(@"           o jogo está            |.....:::.....|                                              ]");
-            Console.WriteLine(@"           está sendo             |:::::::::::::|                                              ]");
-            Console.WriteLine(@"            iniciado              |     :::     |                                              ]");
-            Console.WriteLine(@"                                  \     :::     /                                              ]");
-            Console.WriteLine(@"                                   \    :::    /                                               ]");
-            Console.WriteLine(@"                                    `-. ::: .-'                                                ]");
-            Console.WriteLine(@"                                     //`:::`\\                                                 ]");
-            Console.WriteLine(@"                                    //   '   \\                                                ]");
-            Console.WriteLine(@"                                   |/         \\                                               ]");
+            Console.WriteLine(@"                                      |\                     /)                                ]");
+            Console.WriteLine(@"                                    /\_\\__               (_//                                 ]");
+            Console.WriteLine(@"                                   |   `>\-`     _._       //`)                                ]");
+            Console.WriteLine(@"                                    \ /` \\  _.-`:::`-._  //                                   ]");
+            Console.WriteLine(@"                                     `    \|`    :::    `|/                                    ]");
+            Console.WriteLine(@"         Aguarde enquanto                  |     :::     |                                     ]");
+            Console.WriteLine(@"           o jogo está                     |.....:::.....|                                     ]");
+            Console.WriteLine(@"           está sendo                      |:::::::::::::|                                     ]");
+            Console.WriteLine(@"            iniciado                       |     :::     |                                     ]");
+            Console.WriteLine(@"                                           \     :::     /                                     ]");
+            Console.WriteLine(@"                                            \    :::    /                                      ]");
+            Console.WriteLine(@"                                             `-. ::: .-'                                       ]");
+            Console.WriteLine(@"                                              //`:::`\\                                        ]");
+            Console.WriteLine(@"                                             //   '   \\                                       ]");
+            Console.WriteLine(@"                                            |/         \\                                      ]");
             Console.WriteLine("                                                                                               ]");
             Console.WriteLine("                                                                                               ]");
             Console.WriteLine("                                                                       L O A D I N G . . .     ]");
@@ -116,30 +116,61 @@ namespace MyRPGConsole
             Console.WriteLine("[                                                                                       ]xxxxxx");
             Console.WriteLine("[                                                                                       ]xxxxxx");
             Console.WriteLine("[              O programa é executado em uma tela de prompt, é ideal                    ]xxxxxx");
-            Console.WriteLine("[               que seja feita algumas muandaças, como por exemplo:                     ]xxxxxx");
-            Console.WriteLine("[              Não clicar na tela e respeitar a margem é obrigatório                    ]xxxxxx");
+            Console.WriteLine("[                          que seja feita algumas muandaças.                            ]xxxxxx");
+            Console.WriteLine("[                                                                                       ]xxxxxx");
+            Console.WriteLine("[               Não clicar na tela e respeitar a margem é obrigatório                   ]xxxxxx");
             Console.WriteLine("[                  para o bom funcionamento da tarefa e execução.                       ]xxxxxx");
             Console.WriteLine("[                                                                                       ]xxxxxx");
             Console.WriteLine("[                É necessário redimensionar a tela visando que os X fiquem              ]xxxxxx");
+            Console.WriteLine("[                       quase no limite da margem do prompt.                            ]xxxxxx");
+            Console.WriteLine("[                                                                                       ]xxxxxx");
+            Console.WriteLine("[                 As ações são efetivadas baseado no que é digitado e                   ]xxxxxx");
+            Console.WriteLine("[                  enviado, maioria das mesmas são identificadas pelo                   ]xxxxxx");
+            Console.WriteLine("[                  primeiro caractere e selecionado entre parênteses.                   ]xxxxxx");
             Console.WriteLine("[                                                                                       ]xxxxxx");
             Console.WriteLine("[                                                                                       ]xxxxxx");
-            Console.WriteLine("[                                                                                       ]xxxxxx");
-            Console.WriteLine("[                                                                                       ]xxxxxx");
-            Console.WriteLine("[                                                                                       ]xxxxxx");
-            Console.WriteLine("[                                                                                       ]xxxxxx");
-            Console.WriteLine("[                                                                                       ]xxxxxx");
-            Console.WriteLine("[                                                                                       ]xxxxxx");
+            Console.WriteLine("[    > Assim que você estiver conscientizado, digite qualquer caractere para começar    ]xxxxxx");
             Console.WriteLine("[                                                                                       ]xxxxxx");
             Console.WriteLine("[                                                                                       ]xxxxxx");
             Console.WriteLine("[________________________________________.______________________________________________]xxxxxx");
-
+            Console.ReadKey();
+            Console.Clear();
             #endregion
 
 
 
-            #region GUI DE MENU
-
-                #endregion
+            #region GUI DE LOADING
+            Console.WriteLine("_________________________________________________._____________________________________________]");
+            Console.WriteLine("                                                                                               ]");
+            Console.WriteLine("                                                                                               ]");
+            Console.WriteLine("                                                                                               ]");
+            Console.WriteLine("                            -->| Bem-vindo ao RPG de Console! |<--                             ]");
+            Console.WriteLine("                                                                                               ]");
+            Console.WriteLine("                                                                                               ]");
+            Console.WriteLine("__________________________________________________.____________________________________________]");
+            Console.WriteLine("                                                                                               ]");
+            Console.WriteLine("                                                                                               ]");
+            Console.WriteLine("                                                                                               ]");
+            Console.WriteLine(@"                                      |\                     /)                                ]");
+            Console.WriteLine(@"                                    /\_\\__               (_//                                 ]");
+            Console.WriteLine(@"                                   |   `>\-`     _._       //`)                                ]");
+            Console.WriteLine(@"                                    \ /` \\  _.-`:::`-._  //                                   ]");
+            Console.WriteLine(@"                                     `    \|`    :::    `|/                                    ]");
+            Console.WriteLine(@"         Aguarde enquanto                  |     :::     |                                     ]");
+            Console.WriteLine(@"           o jogo está                     |.....:::.....|                                     ]");
+            Console.WriteLine(@"           está sendo                      |:::::::::::::|                                     ]");
+            Console.WriteLine(@"            iniciado                       |     :::     |                                     ]");
+            Console.WriteLine(@"                                           \     :::     /                                     ]");
+            Console.WriteLine(@"                                            \    :::    /                                      ]");
+            Console.WriteLine(@"                                             `-. ::: .-'                                       ]");
+            Console.WriteLine(@"                                              //`:::`\\                                        ]");
+            Console.WriteLine(@"                                             //   '   \\                                       ]");
+            Console.WriteLine(@"                                            |/         \\                                      ]");
+            Console.WriteLine("                                                                                               ]");
+            Console.WriteLine("                                                                                               ]");
+            Console.WriteLine("                                                                       L O A D I N G . . .     ]");
+            Console.WriteLine("________________________________________________.______________________________________________]");
+            #endregion
 
             while (player.Health > 0)
             {
